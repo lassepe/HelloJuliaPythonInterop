@@ -1,0 +1,21 @@
+[[package]]
+name = "julia"
+version = "0.5.6"
+description = "Julia/Python bridge with IPython support."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+test = ["numpy", "ipython", "pytest (>=4.4)", "mock"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "~3.9"
+content-hash = "95c6a3bf5aeca3cc59ac6b5e421b150c796f7956ec31eafc5b67c8b914aa39e0"
+
+[metadata.files]
+julia = [
+    {file = "julia-0.5.6-py2.py3-none-any.whl", hash = "sha256:9ca85aa655806a5cdf588b70d2e0644c53c418bb22ee2b6565a72d9f9611f4cc"},
+    {file = "julia-0.5.6.tar.gz", hash = "sha256:378d0377f75bb0e3bfc4cce19a56d3bf5a9a7be38e370e3a7cf3359bf4cd0378"},
+]
